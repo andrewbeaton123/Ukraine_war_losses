@@ -1,4 +1,4 @@
-using CSV, DataFrames, Statistics,Logging
+using CSV, DataFrames, Statistics,Logging,StatsBase
 
 function load_data(path:: AbstractString)
     """

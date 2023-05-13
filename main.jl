@@ -1,5 +1,5 @@
-include("./prepare_data.jl")
-include("./regression_model_glm.jl")
+include("./src/prepare_data.jl")
+include("./src/regression_model_glm.jl")
 
 normalized_data = run_load_normalize("C:\\Users\\andrewb\\Documents\\DSets\\russia_losses_equipment.csv")
 
